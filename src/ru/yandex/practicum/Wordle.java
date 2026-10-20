@@ -1,5 +1,9 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exception.GameException;
+import ru.yandex.practicum.exception.LogFileCreationException;
+import ru.yandex.practicum.exception.ProgramException;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

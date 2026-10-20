@@ -1,5 +1,7 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exception.GameStateException;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

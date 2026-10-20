@@ -1,5 +1,8 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exception.DictionaryLoadingException;
+import ru.yandex.practicum.exception.EmptyDictionaryException;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

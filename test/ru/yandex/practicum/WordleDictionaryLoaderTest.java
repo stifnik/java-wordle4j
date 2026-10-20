@@ -2,6 +2,8 @@ package ru.yandex.practicum;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import ru.yandex.practicum.exception.DictionaryLoadingException;
+import ru.yandex.practicum.exception.EmptyDictionaryException;
 
 import java.io.PrintWriter;
 

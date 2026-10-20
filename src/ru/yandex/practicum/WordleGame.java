@@ -1,5 +1,11 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exception.EmptyDictionaryException;
+import ru.yandex.practicum.exception.GameAlreadyFinishedException;
+import ru.yandex.practicum.exception.GameStateException;
+import ru.yandex.practicum.exception.InvalidWordException;
+import ru.yandex.practicum.exception.WordNotFoundInDictionary;
+
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
